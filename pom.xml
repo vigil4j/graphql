@@ -13,6 +13,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+            <version>3.3.4</version>
         </dependency>
 
         <!-- GraphQL dependencies -->
@@ -31,12 +32,14 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-graphql</artifactId>
+            <version>3.3.4</version>
         </dependency>
 
         <!-- Spring Boot Starter Test -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
+            <version>3.3.4</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
