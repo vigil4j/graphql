@@ -15,4 +15,7 @@ record Book(String id, String name, int pageCount, String authorId) {
         return books.stream().filter(book -> book.id().equals(id)).findFirst().orElse(null);
     }
 
+    public static Book getByBookId(String id) {
+        return books.stream().filter(book -> book.id().equals(id)).findFirst().orElse(null);
+    }
 }
